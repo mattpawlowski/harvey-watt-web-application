@@ -1,0 +1,1 @@
+<? if(isset($html)) { echo $html; } else { echo 'NO DATA RECEIVED'; } ?>

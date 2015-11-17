@@ -1,0 +1,108 @@
+/* ------------------------------------- */
+/* Meta Title                            */
+/* ------------------------------------- */
+$fdcms->meta_title();
+    
+
+/* ------------------------------------- */
+/* Meta Description                      */
+/* ------------------------------------- */
+$fdcms->meta_desc();
+
+/* ------------------------------------- */
+/* Page Title                            */
+/* ------------------------------------- */
+$fdcms->the_title();
+
+
+/* ------------------------------------- */
+/* Page Subtitle                         */
+/* ------------------------------------- */
+$fdcms->the_subtitle();
+
+
+/* ------------------------------------- */
+/* Render Menus                          */
+/* Param 1: Slug Name                    */
+/* Param 2: Include <ul> wrapper         */
+/* Param 3: Class Names for <ul>         */
+/* ------------------------------------- */
+$fdcms->nav_menu(Param 1, Param2, Param 3);
+
+
+/* ------------------------------------- */
+/* Slideshow Switch                      */
+/* Param 1: Slideshow Type               */
+/*      'flexslider'                     */
+/*      'parralax-slider'                */
+/* ------------------------------------- */
+$fdcms->render_slideshow(Param 1);
+
+
+/* ------------------------------------- */
+/* HTML Block Render                     */
+/* Param 1: Slug                         */
+/* ------------------------------------- */
+$fdcms->html_block(Param 1);
+
+
+/* ------------------------------------- */
+/* Gallery Switch                        */
+/* Param 1: Slug                         */
+/* Param 2: Type                         */
+/*      'megafolio'                      */
+/* ------------------------------------- */
+$fdcms->render_gallery(Param 1, Param 2);
+
+
+/* ------------------------------------- */
+/* Default Copyright Statement           */
+/* Param 1: Company name                 */
+/* ------------------------------------- */
+$fdcms->copyright(Param 1);
+
+
+/* ------------------------------------- */
+/* Atlanta Web Design                    */
+/* Param 1: Location (default Atlanta)   */
+/* ------------------------------------- */
+$fdcms->firm_copy(Param 1);
+
+
+
+/* ------------------------------------- */
+/* Map Switch                            */
+/* Param 1: Slug                         */
+/* ------------------------------------- */
+$fdcms->render_map(Param 1);
+
+
+
+/* ------------------------------------- */
+/* MAP: Category Map Controller          */
+/* Param 1: Slug                         */
+/* ------------------------------------- */
+$fdcms->render_category_controller(Param 1);
+
+
+
+/* ------------------------------------- */
+/* Render Form                           */
+/* Param 1: Form ID                      */
+/* Param 2: Wrapper Class                */
+/* ------------------------------------- */
+$fdcms->render_form(Param 1, Param 2);
+
+
+
+/* ------------------------------------- */
+/* Floorplan Slider                      */
+/* ------------------------------------- */
+$fdcms->floorplans_slider();
+
+
+
+/* ------------------------------------- */
+/* Floorplan Controller                  */
+/* ------------------------------------- */
+$fdcms->floorplans_slider_control();
