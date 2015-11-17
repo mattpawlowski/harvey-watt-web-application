@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://xaviant.firmdesigndev.com/';
+$config['base_url']	= 'http://harveywatt.firmdesigndev.com/';
 
 /*
 |--------------------------------------------------------------------------

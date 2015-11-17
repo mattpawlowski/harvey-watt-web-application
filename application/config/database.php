@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'xaviant_db';
+$db['default']['username'] = 'harveywatt_db';
 $db['default']['password'] = 'f1rmd3sign';
-$db['default']['database'] = 'fdcms_xaviant';
+$db['default']['database'] = 'fdcms_harveywatt';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
